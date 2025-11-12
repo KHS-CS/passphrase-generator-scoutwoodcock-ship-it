@@ -6,7 +6,7 @@ float[] wordX = new float[5];
 float wordY = 200;
 int selected = -1;  
 String inputBuffer = "";
-boolean fileLoaded = false;  // <— use this instead of 'loaded' to avoid conflicts
+boolean fileLoaded = false; 
 
 void setup() {
   size(800, 400);
